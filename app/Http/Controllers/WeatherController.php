@@ -9,7 +9,7 @@ class WeatherController extends Controller
 {
     public function getWeather()
     {
-        $apiKey = '6ec485b61c562b189e32a3573f0523e3';
+        $apiKey = 'YOUR_API_KEY';
 
         $client = new Client();
 
